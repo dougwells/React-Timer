@@ -12,6 +12,17 @@ var Countdown = React.createClass({
 
   handleSubmit: function(totalSeconds){
     this.setState({totalSeconds:totalSeconds});
+    setInterval(this.startCountdown, 1000)
+  },
+
+  startCountdown: function(){
+    var startSeconds = this.state.totalSeconds;
+    console.log(startSeconds);
+    if(startSeconds>0){
+      this.setState({totalSeconds: startSeconds-1})
+    }else{
+      this.setState({totalSeconds:0});
+    }
   },
 
   render: function(){
