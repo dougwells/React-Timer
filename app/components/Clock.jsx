@@ -4,7 +4,7 @@ var Clock = React.createClass({
 
   getDefaultProps: function(){
     return {
-      totalSeconds: 582
+      totalSeconds: 600
     }
   },
 
