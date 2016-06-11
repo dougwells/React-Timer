@@ -1,8 +1,7 @@
 var expect = require('expect');
 
-//Describe is strictly a visul fn.  Formats output so more readable
-describe('App', function(){
-  it("should properly run test", function(){
+describe('App', () => {
+  it('should properly run tests', () => {
     expect(1).toBe(1);
   });
 });
