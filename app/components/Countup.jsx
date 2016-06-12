@@ -36,7 +36,7 @@ var Countup = React.createClass({
   render: function(){
     return (
       <div>
-        <h1 className="page-title">Count Up</h1>
+        <h1 className="page-title">Timer App</h1>
         <Clock totalSeconds={this.state.count}/>
         <Controls onStatusChange={this.handleStatusChange} countStatus={this.state.countupStatus}/>
 

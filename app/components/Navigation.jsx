@@ -15,9 +15,6 @@ var Navigation = () => {
           <li>
             <Link to="/countdown" activeClassName="active-link">Countdown</Link>
           </li>
-          <li>
-            <Link to="/countup" activeClassName="active-link">Countup</Link>
-          </li>
         </ul>
       </div>
       <div className="top-bar-right">
