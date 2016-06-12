@@ -20,7 +20,7 @@ var Navigation = () => {
       <div className="top-bar-right">
         <ul className="menu">
           <li className="menu-text">
-            Hacked by <a href="https://github.com/dougwells" target="_blank">Wells</a>
+            Hacked by <a href="http://codepen.io/dougwells/full/QyvLqa/" target="_blank">Wells</a>
           </li>
         </ul>
       </div>
